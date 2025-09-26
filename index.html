@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Cursos Online Profesionales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>EduLearn</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#cursos" class="nav-link">Cursos</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Aprende <span class="gradient-text">Sin Límites</span>
+                    <br>Con Nuestros Cursos Online
+                </h1>
+                <p class="hero-description">
+                    Descubre una nueva forma de aprender con nuestros cursos interactivos, 
+                    profesores expertos y contenido de alta calidad. Domina las materias 
+                    más importantes desde la comodidad de tu hogar.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        Comenzar Ahora
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Ver Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>10,000+</h3>
+                        <p>Estudiantes</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Cursos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p>Satisfacción</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-book-open"></i>
+                    <h4>Matemáticas Avanzadas</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-atom"></i>
+                    <h4>Física Cuántica</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-flask"></i>
+                    <h4>Química Orgánica</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 45%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Section -->
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Cursos</h2>
+                <p class="section-description">
+                    Explora nuestra amplia gama de materias diseñadas para todos los niveles
+                </p>
+            </div>
+            
+            <div class="cursos-grid">
+                <!-- Matemáticas -->
+                <div class="curso-card" data-aos="fade-up">
+                    <div class="curso-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="curso-title">Matemáticas</h3>
+                    <p class="curso-description">
+                        Desde álgebra básica hasta cálculo avanzado. Domina los conceptos 
+                        matemáticos con ejercicios prácticos y explicaciones claras.
+                    </p>
+                    <div class="curso-features">
+                        <span class="feature"><i class="fas fa-clock"></i> 40 horas</span>
+                        <span class="feature"><i class="fas fa-users"></i> 2,500 estudiantes</span>
+                        <span class="feature"><i class="fas fa-star"></i> 4.9/5</span>
+                    </div>
+                    <div class="curso-price">
+                        <span class="price">$29.99</span>
+                        <span class="original-price">$49.99</span>
+                    </div>
+                    <button class="btn btn-outline">Ver Curso</button>
+                </div>
+
+                <!-- Física -->
+                <div class="curso-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="curso-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="curso-title">Física</h3>
+                    <p class="curso-description">
+                        Comprende los principios fundamentales de la física con experimentos 
+                        virtuales y simulaciones interactivas.
+                    </p>
+                    <div class="curso-features">
+                        <span class="feature"><i class="fas fa-clock"></i> 35 horas</span>
+                        <span class="feature"><i class="fas fa-users"></i> 1,800 estudiantes</span>
+                        <span class="feature"><i class="fas fa-star"></i> 4.8/5</span>
+                    </div>
+                    <div class="curso-price">
+                        <span class="price">$34.99</span>
+                        <span class="original-price">$59.99</span>
+                    </div>
+                    <button class="btn btn-outline">Ver Curso</button>
+                </div>
+
+                <!-- Química -->
+                <div class="curso-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="curso-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="curso-title">Química</h3>
+                    <p class="curso-description">
+                        Explora el mundo molecular con laboratorios virtuales y 
+                        experimentos seguros desde casa.
+                    </p>
+                    <div class="curso-features">
+                        <span class="feature"><i class="fas fa-clock"></i> 30 horas</span>
+                        <span class="feature"><i class="fas fa-users"></i> 1,200 estudiantes</span>
+                        <span class="feature"><i class="fas fa-star"></i> 4.7/5</span>
+                    </div>
+                    <div class="curso-price">
+                        <span class="price">$27.99</span>
+                        <span class="original-price">$44.99</span>
+                    </div>
+                    <button class="btn btn-outline">Ver Curso</button>
+                </div>
+
+                <!-- Contabilidad -->
+                <div class="curso-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="curso-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="curso-title">Contabilidad</h3>
+                    <p class="curso-description">
+                        Aprende los fundamentos de la contabilidad financiera y 
+                        gestión empresarial con casos prácticos reales.
+                    </p>
+                    <div class="curso-features">
+                        <span class="feature"><i class="fas fa-clock"></i> 25 horas</span>
+                        <span class="feature"><i class="fas fa-users"></i> 3,000 estudiantes</span>
+                        <span class="feature"><i class="fas fa-star"></i> 4.9/5</span>
+                    </div>
+                    <div class="curso-price">
+                        <span class="price">$24.99</span>
+                        <span class="original-price">$39.99</span>
+                    </div>
+                    <button class="btn btn-outline">Ver Curso</button>
+                </div>
+
+                <!-- Español -->
+                <div class="curso-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="curso-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="curso-title">Español</h3>
+                    <p class="curso-description">
+                        Mejora tu gramática, ortografía y redacción con ejercicios 
+                        interactivos y corrección personalizada.
+                    </p>
+                    <div class="curso-features">
+                        <span class="feature"><i class="fas fa-clock"></i> 20 horas</span>
+                        <span class="feature"><i class="fas fa-users"></i> 4,500 estudiantes</span>
+                        <span class="feature"><i class="fas fa-star"></i> 4.8/5</span>
+                    </div>
+                    <div class="curso-price">
+                        <span class="price">$19.99</span>
+                        <span class="original-price">$29.99</span>
+                    </div>
+                    <button class="btn btn-outline">Ver Curso</button>
+                </div>
+
+                <!-- Inglés -->
+                <div class="curso-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="curso-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="curso-title">Inglés</h3>
+                    <p class="curso-description">
+                        Domina el inglés desde cero hasta nivel avanzado con 
+                        conversaciones reales y pronunciación perfecta.
+                    </p>
+                    <div class="curso-features">
+                        <span class="feature"><i class="fas fa-clock"></i> 50 horas</span>
+                        <span class="feature"><i class="fas fa-users"></i> 5,200 estudiantes</span>
+                        <span class="feature"><i class="fas fa-star"></i> 4.9/5</span>
+                    </div>
+                    <div class="curso-price">
+                        <span class="price">$39.99</span>
+                        <span class="original-price">$69.99</span>
+                    </div>
+                    <button class="btn btn-outline">Ver Curso</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características Section -->
+    <section class="caracteristicas">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Por qué elegir EduLearn?</h2>
+                <p class="section-description">
+                    Ofrecemos la mejor experiencia de aprendizaje online
+                </p>
+            </div>
+            
+            <div class="caracteristicas-grid">
+                <div class="caracteristica-card">
+                    <div class="caracteristica-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Clases en Vivo</h3>
+                    <p>Interactúa con profesores expertos en tiempo real y resuelve tus dudas al instante.</p>
+                </div>
+                
+                <div class="caracteristica-card">
+                    <div class="caracteristica-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Acceso Móvil</h3>
+                    <p>Estudia desde cualquier dispositivo, en cualquier momento y lugar.</p>
+                </div>
+                
+                <div class="caracteristica-card">
+                    <div class="caracteristica-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certificados</h3>
+                    <p>Obtén certificados reconocidos al completar exitosamente tus cursos.</p>
+                </div>
+                
+                <div class="caracteristica-card">
+                    <div class="caracteristica-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Soporte 24/7</h3>
+                    <p>Nuestro equipo de soporte está disponible para ayudarte en todo momento.</p>
+                </div>
+                
+                <div class="caracteristica-card">
+                    <div class="caracteristica-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Comunidad</h3>
+                    <p>Conecta con otros estudiantes y forma grupos de estudio.</p>
+                </div>
+                
+                <div class="caracteristica-card">
+                    <div class="caracteristica-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Progreso</h3>
+                    <p>Rastrea tu progreso con estadísticas detalladas y métricas de aprendizaje.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section class="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que dicen nuestros estudiantes</h2>
+                <p class="section-description">
+                    Historias reales de éxito de nuestros estudiantes
+                </p>
+            </div>
+            
+            <div class="testimonios-grid">
+                <div class="testimonio-card">
+                    <div class="testimonio-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"EduLearn cambió completamente mi forma de aprender matemáticas. Los profesores son increíbles y el material es muy claro."</p>
+                    </div>
+                    <div class="testimonio-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face" alt="María García">
+                        </div>
+                        <div class="author-info">
+                            <h4>María García</h4>
+                            <span>Estudiante de Matemáticas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonio-card">
+                    <div class="testimonio-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"El curso de inglés me ayudó a conseguir mi trabajo soñado. La metodología es perfecta para aprender rápido."</p>
+                    </div>
+                    <div class="testimonio-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Carlos López">
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos López</h4>
+                            <span>Estudiante de Inglés</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonio-card">
+                    <div class="testimonio-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Los laboratorios virtuales de química son increíbles. Es como estar en un laboratorio real pero desde casa."</p>
+                    </div>
+                    <div class="testimonio-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Ana Rodríguez">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana Rodríguez</h4>
+                            <span>Estudiante de Química</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EduLearn</span>
+                    </div>
+                    <p>La mejor plataforma de educación online para dominar las materias más importantes.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Cursos</h3>
+                    <ul>
+                        <li><a href="#">Matemáticas</a></li>
+                        <li><a href="#">Física</a></li>
+                        <li><a href="#">Química</a></li>
+                        <li><a href="#">Contabilidad</a></li>
+                        <li><a href="#">Español</a></li>
+                        <li><a href="#">Inglés</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guías de Estudio</a></li>
+                        <li><a href="#">Exámenes de Práctica</a></li>
+                        <li><a href="#">Tutores</a></li>
+                        <li><a href="#">Comunidad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@edulearn.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
